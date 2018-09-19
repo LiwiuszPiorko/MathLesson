@@ -6,14 +6,10 @@ public class MathLesson {
     Method check= new Method();
     boolean isRightTriangle = check.isRightTriangle(triangle1);
 
-    if (isRightTriangle== true){
-
-        System.out.println("Trójkąt jest trójkątem równobocznym");
+    if (isRightTriangle){
+        System.out.println("Trójkąt jest trójkątem prostokątnym");
     }else{
-
-        System.out.println("Trójkąt nie jest trójkątem równobocznym");
-
+        System.out.println("Trójkąt nie jest trójkątem prostokątnym");
         }
-
     }
 }

@@ -9,11 +9,9 @@ public class Triangle {
         this.b = b;
         this.c = c;
     }
-
     public double getA() {
         return a;
     }
-
     public void setA(double a) {
         this.a = a;
     }
@@ -34,6 +32,5 @@ public class Triangle {
         this.c = c;
     }
 
-
-    }
+}
 
